@@ -9,4 +9,4 @@ let playerData =
         })
     .then(response => response.json())
     .then(playerDetails => alert(playerDetails.nickname));
-console.log(playerData)
+console.log(playerData.nickname)
